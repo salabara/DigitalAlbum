@@ -1,0 +1,9 @@
+<album_setting>
+    <motion_sensor>
+        <dark_delay>300</dark_delay>
+    </motion_sensor>
+    <light_sensor>
+        <dark_delay>1.5</dark_delay>
+        <threshold>0.05</threshold>
+    </light_sensor>
+</album_setting>
