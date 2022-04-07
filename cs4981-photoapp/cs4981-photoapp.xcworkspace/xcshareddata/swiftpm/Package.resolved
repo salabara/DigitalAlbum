@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Socket",
+        "repositoryURL": "https://github.com/IBM-Swift/BlueSocket",
+        "state": {
+          "branch": null,
+          "revision": "c9894fd117457f1d006575fbfb2fdfd6f79eac03",
+          "version": "1.0.200"
+        }
+      },
+      {
+        "package": "CSSH",
+        "repositoryURL": "https://github.com/DimaRU/Libssh2Prebuild.git",
+        "state": {
+          "branch": null,
+          "revision": "45f8bbb3f78bcf9e4aa320be6ac4f0abad118aae",
+          "version": "1.10.0+OpenSSL_1_1_1l"
+        }
+      },
+      {
+        "package": "OpenSSL",
+        "repositoryURL": "https://github.com/krzyzanowskim/OpenSSL",
+        "state": {
+          "branch": "master",
+          "revision": "23d8b94ae16d668b2916be1fdade7de375c6ccb0",
+          "version": null
+        }
+      },
+      {
+        "package": "Shout",
+        "repositoryURL": "https://github.com/DimaRU/Shout",
+        "state": {
+          "branch": "master",
+          "revision": "b43291fd0d88adfdc7c68004964dbeb854e0722d",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

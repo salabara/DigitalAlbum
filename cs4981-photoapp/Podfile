@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+
+target 'cs4981-photoapp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'CocoaAsyncSocket'
+  pod 'SwiftSocket', :git => 'https://github.com/azubala/SwiftSocket'
+  
+  # Pods for cs4981-photoapp
+
+  target 'cs4981-photoappTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'cs4981-photoappUITests' do
+    # Pods for testing
+  end
+
+end

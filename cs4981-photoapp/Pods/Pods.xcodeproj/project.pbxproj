@@ -1,0 +1,1199 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C23C0DFE0C3DA606246B293D2C7F53 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C90D5B6D274410FF09CC850DA28134 /* Result.swift */; };
+		087ACCC59D5A296AA8B935403C11FA50 /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8847975DEF17BC2782DBBE8F851AB195 /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FEA385DC46ED59A069CC76E9D267C9 /* CocoaAsyncSocket-dummy.m */; };
+		19785BBA7092455BFDF40F69AD164EC8 /* Pods-cs4981-photoappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF1B0F016E05F3A930AAC72FC868FF0 /* Pods-cs4981-photoappTests-dummy.m */; };
+		228DA344DA72E937A5DD1BD0C32E027C /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 749E0313C1BD90368A3615DFA293EE80 /* SwiftSocket-dummy.m */; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */; };
+		344AE0275955A221267216769DF932C1 /* Pods-cs4981-photoapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6452D7F69530D7F55ECB7AC41476EFF /* Pods-cs4981-photoapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3610F76F21BEFC62C76A9E3038F745CB /* Pods-cs4981-photoapp-cs4981-photoappUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B86A412B57DC9DF37C69FC8DC4DEF7FE /* Pods-cs4981-photoapp-cs4981-photoappUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0AB6C38C7830ACB9B0DB393AAD63C /* GCDAsyncUdpSocket.m */; };
+		47816D68318BEE74A719C7937E3586B7 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4919CA3F594B061FA9B0B58BFE63D866 /* Socket.swift */; };
+		4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A80A6A5F8D1C08DC8FB72284CBF51A /* GCDAsyncSocket.m */; };
+		5DAE31EF7BA53B4D1C3EE9CB5BF7EF52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		5F9B2F73841A9E2B5DFA6388FBA70A6A /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = C5D536A03042B299F5CCDAA2D843465C /* yudpsocket.c */; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA109679461EB7D2F1E271C25452061 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708C789CFA6154EE1122EF8E9DBFF35E /* Pods-cs4981-photoapp-cs4981-photoappUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF6AEBA4BBCE6F1580A747B36EF24E6 /* Pods-cs4981-photoapp-cs4981-photoappUITests-dummy.m */; };
+		7518038FF2D6E3E2EF5D93219BF4EEB4 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 1A3F16D5665981CF0947AA9FA742E5E7 /* ytcpsocket.c */; };
+		798F248A271DA111FF10D85201AF8DD1 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626FF537F9B0EA3C8F4C4F97B35E886 /* UDPClient.swift */; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F56AE6B9BEF0A3F190FFC057C64D781B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5FA4E809CF19E948457C4FE7B6C05B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */; };
+		B100C329E30F663D569814BA7B510B0F /* Pods-cs4981-photoappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD8F7AEEA0F3E6622D9A1DE6EBB9955 /* Pods-cs4981-photoappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B0DE9DDECA84EE50FA2D020A60496FD6 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7405FCD102B97FDEE08A81669E0801C /* Pods-cs4981-photoapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D1325F8A2882073E761168C97D04EA /* Pods-cs4981-photoapp-dummy.m */; };
+		C142F52A2ACA872A719CE65A667EDA5C /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B2AE6EE1D0B8770A2144B982954CFC /* TCPClient.swift */; };
+		EC6448E79885A79AEE1BC329592B50AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		F2B472490E1166565C1D60E26DF8195A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1831304BB5D485DC6A137A7DF17E4B09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F96471F3250B23824D958A284CD767;
+			remoteInfo = "Pods-cs4981-photoapp";
+		};
+		784EAC124F72BC31D1C4F3F0B05A5CD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		7F2E3B8DFF8C576093CED3A2B2C11631 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		E564CD39A8AB95FF76C588171A94C80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2098E99F31975F5C89523CC6EB58B9CC;
+			remoteInfo = SwiftSocket;
+		};
+		E91428E2B974C50934C5BF434E105526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2098E99F31975F5C89523CC6EB58B9CC;
+			remoteInfo = SwiftSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020896094AD2238EDD5606475163B5EC /* Pods-cs4981-photoappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cs4981-photoappTests.modulemap"; sourceTree = "<group>"; };
+		05DCBD77843A673C706318BE98357070 /* Pods-cs4981-photoapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cs4981-photoapp-frameworks.sh"; sourceTree = "<group>"; };
+		11FEA385DC46ED59A069CC76E9D267C9 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		14F9ACB724D84DE82B4C54C821BCCE99 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		162376D3D7E285144FC19D17CD78FDE0 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
+		1A3F16D5665981CF0947AA9FA742E5E7 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
+		1AF5D5A338C9470A7CB9B43DDFD84247 /* SwiftSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSocket-Info.plist"; sourceTree = "<group>"; };
+		1CA109679461EB7D2F1E271C25452061 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1D46C6D2514AEC96988C44DAC6DD9FE6 /* Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1D54F3D70E879E052D4BBD301C6014AA /* Pods-cs4981-photoapp-cs4981-photoappUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cs4981-photoapp-cs4981-photoappUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		28412B7D855806B6C289440C5F6D76B3 /* SwiftSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.debug.xcconfig; sourceTree = "<group>"; };
+		352E8893373F6752BFF1887AE7CB66AC /* Pods-cs4981-photoappTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cs4981-photoappTests"; path = Pods_cs4981_photoappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35FC7FC83A1A0F722327A66FFCD2058C /* Pods-cs4981-photoappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cs4981-photoappTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		37E2C6CC31A7810E300055AFB1CBC420 /* Pods-cs4981-photoappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cs4981-photoappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B77F259D97EB9CB1CBEE9B326EA7B7D /* Pods-cs4981-photoappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cs4981-photoappTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FD8F7AEEA0F3E6622D9A1DE6EBB9955 /* Pods-cs4981-photoappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cs4981-photoappTests-umbrella.h"; sourceTree = "<group>"; };
+		42F9431C428B32A24807161888FC432C /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		48C90D5B6D274410FF09CC850DA28134 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		4919CA3F594B061FA9B0B58BFE63D866 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
+		49B2AE6EE1D0B8770A2144B982954CFC /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC97703E6567292C8B884DC68F2EB9E /* SwiftSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.release.xcconfig; sourceTree = "<group>"; };
+		7402111EB9B5740A9776D304F1E22317 /* Pods-cs4981-photoapp-cs4981-photoappUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cs4981-photoapp-cs4981-photoappUITests.modulemap"; sourceTree = "<group>"; };
+		749E0313C1BD90368A3615DFA293EE80 /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
+		7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7B675E4DD5510C646AB7CBEBA14929BD /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
+		7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7CEEAA8F7698101FF3AE65B4B230AA29 /* Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D19F06BDC223317F01B2A5AB7A8783B /* Pods-cs4981-photoapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cs4981-photoapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7FF1B0F016E05F3A930AAC72FC868FF0 /* Pods-cs4981-photoappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cs4981-photoappTests-dummy.m"; sourceTree = "<group>"; };
+		8193BA3C4F94BD2533406F669452AC90 /* Pods-cs4981-photoapp-cs4981-photoappUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cs4981-photoapp-cs4981-photoappUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85D1325F8A2882073E761168C97D04EA /* Pods-cs4981-photoapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cs4981-photoapp-dummy.m"; sourceTree = "<group>"; };
+		8847975DEF17BC2782DBBE8F851AB195 /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		89288810E9EA6360DF88DC4D8BE74160 /* Pods-cs4981-photoapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cs4981-photoapp.modulemap"; sourceTree = "<group>"; };
+		8A93798D54D9AD13204E274E6393AF0A /* Pods-cs4981-photoapp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cs4981-photoapp"; path = Pods_cs4981_photoapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92EE1E558CE7AF5F652462D183937236 /* Pods-cs4981-photoappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cs4981-photoappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97F0FA6B0F409A39A8F286C9713CB87A /* Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99406A2ED6D30408EE136B1EDD4CE9FD /* Pods-cs4981-photoapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cs4981-photoapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		AB3D2CBA57370FDFA6E586116170E0CB /* Pods-cs4981-photoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cs4981-photoapp.release.xcconfig"; sourceTree = "<group>"; };
+		ABF6AEBA4BBCE6F1580A747B36EF24E6 /* Pods-cs4981-photoapp-cs4981-photoappUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cs4981-photoapp-cs4981-photoappUITests-dummy.m"; sourceTree = "<group>"; };
+		B0DE9DDECA84EE50FA2D020A60496FD6 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		B86A412B57DC9DF37C69FC8DC4DEF7FE /* Pods-cs4981-photoapp-cs4981-photoappUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cs4981-photoapp-cs4981-photoappUITests-umbrella.h"; sourceTree = "<group>"; };
+		BF3B1C56400533275775D1837D72E507 /* Pods-cs4981-photoappTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cs4981-photoappTests-Info.plist"; sourceTree = "<group>"; };
+		C5A80A6A5F8D1C08DC8FB72284CBF51A /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		C5D536A03042B299F5CCDAA2D843465C /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
+		CDA96CF21C4F7F6A515DC949F8DE0421 /* Pods-cs4981-photoapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cs4981-photoapp-Info.plist"; sourceTree = "<group>"; };
+		D0BFE0C38C0522D19D624E3558343B7A /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		DF89F77CD215D1653C65FBBABE54A02F /* Pods-cs4981-photoapp-cs4981-photoappUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cs4981-photoapp-cs4981-photoappUITests-Info.plist"; sourceTree = "<group>"; };
+		E2D914A27B1A116B8FBFBD22E116926B /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		E626FF537F9B0EA3C8F4C4F97B35E886 /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
+		F2D0AB6C38C7830ACB9B0DB393AAD63C /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		F4293490AF35579D774806CE43426D92 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		F44DA2801272A3970B8A2C0CFBCAB776 /* Pods-cs4981-photoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cs4981-photoapp.debug.xcconfig"; sourceTree = "<group>"; };
+		F56AE6B9BEF0A3F190FFC057C64D781B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		F6452D7F69530D7F55ECB7AC41476EFF /* Pods-cs4981-photoapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cs4981-photoapp-umbrella.h"; sourceTree = "<group>"; };
+		F64A7E943A42EA170F8CF8432F9348EE /* Pods-cs4981-photoapp-cs4981-photoappUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cs4981-photoapp-cs4981-photoappUITests"; path = Pods_cs4981_photoapp_cs4981_photoappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F01E2495F4A03F7F93A918F2B276ABD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D5FA4E809CF19E948457C4FE7B6C05B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9384ED49C1CD77B5457EB899770EEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAE31EF7BA53B4D1C3EE9CB5BF7EF52 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		826D9EBD4ACAE45A9EF073E9C0A1AF24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6448E79885A79AEE1BC329592B50AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1C1629F5149AAC66FCCA8400449557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B472490E1166565C1D60E26DF8195A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03147626370BEE1456B6817E139D4775 /* Pods-cs4981-photoapp-cs4981-photoappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7402111EB9B5740A9776D304F1E22317 /* Pods-cs4981-photoapp-cs4981-photoappUITests.modulemap */,
+				8193BA3C4F94BD2533406F669452AC90 /* Pods-cs4981-photoapp-cs4981-photoappUITests-acknowledgements.markdown */,
+				1D54F3D70E879E052D4BBD301C6014AA /* Pods-cs4981-photoapp-cs4981-photoappUITests-acknowledgements.plist */,
+				ABF6AEBA4BBCE6F1580A747B36EF24E6 /* Pods-cs4981-photoapp-cs4981-photoappUITests-dummy.m */,
+				1D46C6D2514AEC96988C44DAC6DD9FE6 /* Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks.sh */,
+				DF89F77CD215D1653C65FBBABE54A02F /* Pods-cs4981-photoapp-cs4981-photoappUITests-Info.plist */,
+				B86A412B57DC9DF37C69FC8DC4DEF7FE /* Pods-cs4981-photoapp-cs4981-photoappUITests-umbrella.h */,
+				7CEEAA8F7698101FF3AE65B4B230AA29 /* Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig */,
+				97F0FA6B0F409A39A8F286C9713CB87A /* Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig */,
+			);
+			name = "Pods-cs4981-photoapp-cs4981-photoappUITests";
+			path = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1749A045751D9CE66921DCCDB6383D5F /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				48C90D5B6D274410FF09CC850DA28134 /* Result.swift */,
+				4919CA3F594B061FA9B0B58BFE63D866 /* Socket.swift */,
+				49B2AE6EE1D0B8770A2144B982954CFC /* TCPClient.swift */,
+				E626FF537F9B0EA3C8F4C4F97B35E886 /* UDPClient.swift */,
+				1A3F16D5665981CF0947AA9FA742E5E7 /* ytcpsocket.c */,
+				C5D536A03042B299F5CCDAA2D843465C /* yudpsocket.c */,
+				DBC3F92BAA4CAA286E9D9516FE8B94EB /* Support Files */,
+			);
+			path = SwiftSocket;
+			sourceTree = "<group>";
+		};
+		5A582DFA1AF5AD4215B8CE2F7B150D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63D95547E7630F41EE10847F93146179 /* CocoaAsyncSocket */,
+				1749A045751D9CE66921DCCDB6383D5F /* SwiftSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		63D95547E7630F41EE10847F93146179 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				1CA109679461EB7D2F1E271C25452061 /* GCDAsyncSocket.h */,
+				C5A80A6A5F8D1C08DC8FB72284CBF51A /* GCDAsyncSocket.m */,
+				B0DE9DDECA84EE50FA2D020A60496FD6 /* GCDAsyncUdpSocket.h */,
+				F2D0AB6C38C7830ACB9B0DB393AAD63C /* GCDAsyncUdpSocket.m */,
+				8177E996D9DA9804BB2EDDE5A4159D59 /* Support Files */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		8177E996D9DA9804BB2EDDE5A4159D59 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0BFE0C38C0522D19D624E3558343B7A /* CocoaAsyncSocket.modulemap */,
+				11FEA385DC46ED59A069CC76E9D267C9 /* CocoaAsyncSocket-dummy.m */,
+				F4293490AF35579D774806CE43426D92 /* CocoaAsyncSocket-Info.plist */,
+				42F9431C428B32A24807161888FC432C /* CocoaAsyncSocket-prefix.pch */,
+				F56AE6B9BEF0A3F190FFC057C64D781B /* CocoaAsyncSocket-umbrella.h */,
+				E2D914A27B1A116B8FBFBD22E116926B /* CocoaAsyncSocket.debug.xcconfig */,
+				14F9ACB724D84DE82B4C54C821BCCE99 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		B69AAF10E7F90913B62CFCD89210D84F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				8A93798D54D9AD13204E274E6393AF0A /* Pods-cs4981-photoapp */,
+				F64A7E943A42EA170F8CF8432F9348EE /* Pods-cs4981-photoapp-cs4981-photoappUITests */,
+				352E8893373F6752BFF1887AE7CB66AC /* Pods-cs4981-photoappTests */,
+				3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3DC092CDF32A4706416DA494B40CC4E /* Pods-cs4981-photoappTests */ = {
+			isa = PBXGroup;
+			children = (
+				020896094AD2238EDD5606475163B5EC /* Pods-cs4981-photoappTests.modulemap */,
+				37E2C6CC31A7810E300055AFB1CBC420 /* Pods-cs4981-photoappTests-acknowledgements.markdown */,
+				35FC7FC83A1A0F722327A66FFCD2058C /* Pods-cs4981-photoappTests-acknowledgements.plist */,
+				7FF1B0F016E05F3A930AAC72FC868FF0 /* Pods-cs4981-photoappTests-dummy.m */,
+				BF3B1C56400533275775D1837D72E507 /* Pods-cs4981-photoappTests-Info.plist */,
+				3FD8F7AEEA0F3E6622D9A1DE6EBB9955 /* Pods-cs4981-photoappTests-umbrella.h */,
+				92EE1E558CE7AF5F652462D183937236 /* Pods-cs4981-photoappTests.debug.xcconfig */,
+				3B77F259D97EB9CB1CBEE9B326EA7B7D /* Pods-cs4981-photoappTests.release.xcconfig */,
+			);
+			name = "Pods-cs4981-photoappTests";
+			path = "Target Support Files/Pods-cs4981-photoappTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				5A582DFA1AF5AD4215B8CE2F7B150D7E /* Pods */,
+				B69AAF10E7F90913B62CFCD89210D84F /* Products */,
+				E2A2F57C3DFD4A446A6858C0E5C2F846 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */,
+				7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */,
+				7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DBC3F92BAA4CAA286E9D9516FE8B94EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B675E4DD5510C646AB7CBEBA14929BD /* SwiftSocket.modulemap */,
+				749E0313C1BD90368A3615DFA293EE80 /* SwiftSocket-dummy.m */,
+				1AF5D5A338C9470A7CB9B43DDFD84247 /* SwiftSocket-Info.plist */,
+				162376D3D7E285144FC19D17CD78FDE0 /* SwiftSocket-prefix.pch */,
+				8847975DEF17BC2782DBBE8F851AB195 /* SwiftSocket-umbrella.h */,
+				28412B7D855806B6C289440C5F6D76B3 /* SwiftSocket.debug.xcconfig */,
+				6EC97703E6567292C8B884DC68F2EB9E /* SwiftSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSocket";
+			sourceTree = "<group>";
+		};
+		E2A2F57C3DFD4A446A6858C0E5C2F846 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F65BE3F7364F82D6CD639023D95F7F26 /* Pods-cs4981-photoapp */,
+				03147626370BEE1456B6817E139D4775 /* Pods-cs4981-photoapp-cs4981-photoappUITests */,
+				C3DC092CDF32A4706416DA494B40CC4E /* Pods-cs4981-photoappTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F65BE3F7364F82D6CD639023D95F7F26 /* Pods-cs4981-photoapp */ = {
+			isa = PBXGroup;
+			children = (
+				89288810E9EA6360DF88DC4D8BE74160 /* Pods-cs4981-photoapp.modulemap */,
+				7D19F06BDC223317F01B2A5AB7A8783B /* Pods-cs4981-photoapp-acknowledgements.markdown */,
+				99406A2ED6D30408EE136B1EDD4CE9FD /* Pods-cs4981-photoapp-acknowledgements.plist */,
+				85D1325F8A2882073E761168C97D04EA /* Pods-cs4981-photoapp-dummy.m */,
+				05DCBD77843A673C706318BE98357070 /* Pods-cs4981-photoapp-frameworks.sh */,
+				CDA96CF21C4F7F6A515DC949F8DE0421 /* Pods-cs4981-photoapp-Info.plist */,
+				F6452D7F69530D7F55ECB7AC41476EFF /* Pods-cs4981-photoapp-umbrella.h */,
+				F44DA2801272A3970B8A2C0CFBCAB776 /* Pods-cs4981-photoapp.debug.xcconfig */,
+				AB3D2CBA57370FDFA6E586116170E0CB /* Pods-cs4981-photoapp.release.xcconfig */,
+			);
+			name = "Pods-cs4981-photoapp";
+			path = "Target Support Files/Pods-cs4981-photoapp";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0EAEEB76C8F2BEDE61302D59B480F66A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087ACCC59D5A296AA8B935403C11FA50 /* SwiftSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15258A21BBDB721A79ED5EBB8CF19926 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3610F76F21BEFC62C76A9E3038F745CB /* Pods-cs4981-photoapp-cs4981-photoappUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EA85C1BC0D0501CFDC3EE28C9FFC525 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344AE0275955A221267216769DF932C1 /* Pods-cs4981-photoapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63E2F7C0EE49EF6AD6EF0B81365133E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B100C329E30F663D569814BA7B510B0F /* Pods-cs4981-photoappTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07F96471F3250B23824D958A284CD767 /* Pods-cs4981-photoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7458B8FCE4575C63D7D0B35BCFE37AD3 /* Build configuration list for PBXNativeTarget "Pods-cs4981-photoapp" */;
+			buildPhases = (
+				4EA85C1BC0D0501CFDC3EE28C9FFC525 /* Headers */,
+				99F09CACD8AFC26F889C8230F8526574 /* Sources */,
+				826D9EBD4ACAE45A9EF073E9C0A1AF24 /* Frameworks */,
+				1BFB5789A8D9C58235140490678D3997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3382AF51BDB8410AD1F34F4E22A7CEC2 /* PBXTargetDependency */,
+				CC4D5AE4EF5753533E03DA9CBDE99309 /* PBXTargetDependency */,
+			);
+			name = "Pods-cs4981-photoapp";
+			productName = Pods_cs4981_photoapp;
+			productReference = 8A93798D54D9AD13204E274E6393AF0A /* Pods-cs4981-photoapp */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F088E4D34A8AF9F0136E6A49FBA2B31 /* Pods-cs4981-photoappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E696C537B5DCB98B6B01CDE5DE7FED3 /* Build configuration list for PBXNativeTarget "Pods-cs4981-photoappTests" */;
+			buildPhases = (
+				B63E2F7C0EE49EF6AD6EF0B81365133E /* Headers */,
+				15FF5027199E26A44875C160663E2564 /* Sources */,
+				9B1C1629F5149AAC66FCCA8400449557 /* Frameworks */,
+				F3C57CAAF3016E347F60C159866927A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				381252F754C868E3CDD5284A91DEF1BA /* PBXTargetDependency */,
+			);
+			name = "Pods-cs4981-photoappTests";
+			productName = Pods_cs4981_photoappTests;
+			productReference = 352E8893373F6752BFF1887AE7CB66AC /* Pods-cs4981-photoappTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3832354B0CEFAA4A2E3BDD4FEFF950D7 /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
+			buildPhases = (
+				0EAEEB76C8F2BEDE61302D59B480F66A /* Headers */,
+				EA88094B61DB69177A5EF27BF7572E8F /* Sources */,
+				3F01E2495F4A03F7F93A918F2B276ABD /* Frameworks */,
+				21875752C3477F962200AC7C2F35B1DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSocket;
+			productName = SwiftSocket;
+			productReference = 3A59C9FE3D98CF2152E03CFA05A85BFC /* SwiftSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				B9BA2F3E20981E6576E8626EADB9300B /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE0487FC5FB3B41140BC926E237CE851 /* Pods-cs4981-photoapp-cs4981-photoappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC7241CEB1A0CC9EC84412CA9FD6006 /* Build configuration list for PBXNativeTarget "Pods-cs4981-photoapp-cs4981-photoappUITests" */;
+			buildPhases = (
+				15258A21BBDB721A79ED5EBB8CF19926 /* Headers */,
+				318071A2F1CA5493F1E9A9610D394BC1 /* Sources */,
+				7A9384ED49C1CD77B5457EB899770EEA /* Frameworks */,
+				F987777D8F7B5ACD3F3939A4952DF014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				006E6B773679EF39CE9BF499F794EE3E /* PBXTargetDependency */,
+				03260752ACCE531B1B7DBF4E64D60E6F /* PBXTargetDependency */,
+			);
+			name = "Pods-cs4981-photoapp-cs4981-photoappUITests";
+			productName = Pods_cs4981_photoapp_cs4981_photoappUITests;
+			productReference = F64A7E943A42EA170F8CF8432F9348EE /* Pods-cs4981-photoapp-cs4981-photoappUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B69AAF10E7F90913B62CFCD89210D84F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				07F96471F3250B23824D958A284CD767 /* Pods-cs4981-photoapp */,
+				BE0487FC5FB3B41140BC926E237CE851 /* Pods-cs4981-photoapp-cs4981-photoappUITests */,
+				1F088E4D34A8AF9F0136E6A49FBA2B31 /* Pods-cs4981-photoappTests */,
+				2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BFB5789A8D9C58235140490678D3997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21875752C3477F962200AC7C2F35B1DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C57CAAF3016E347F60C159866927A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F987777D8F7B5ACD3F3939A4952DF014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15FF5027199E26A44875C160663E2564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19785BBA7092455BFDF40F69AD164EC8 /* Pods-cs4981-photoappTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		318071A2F1CA5493F1E9A9610D394BC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708C789CFA6154EE1122EF8E9DBFF35E /* Pods-cs4981-photoapp-cs4981-photoappUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F09CACD8AFC26F889C8230F8526574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7405FCD102B97FDEE08A81669E0801C /* Pods-cs4981-photoapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9BA2F3E20981E6576E8626EADB9300B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F482FE2022286A223FFC9BFA84F83A /* CocoaAsyncSocket-dummy.m in Sources */,
+				4FC2272F4C11472C903CFCC6A101313E /* GCDAsyncSocket.m in Sources */,
+				37B0BF2484BE142772F5429AEE5CF0B1 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88094B61DB69177A5EF27BF7572E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C23C0DFE0C3DA606246B293D2C7F53 /* Result.swift in Sources */,
+				47816D68318BEE74A719C7937E3586B7 /* Socket.swift in Sources */,
+				228DA344DA72E937A5DD1BD0C32E027C /* SwiftSocket-dummy.m in Sources */,
+				C142F52A2ACA872A719CE65A667EDA5C /* TCPClient.swift in Sources */,
+				798F248A271DA111FF10D85201AF8DD1 /* UDPClient.swift in Sources */,
+				7518038FF2D6E3E2EF5D93219BF4EEB4 /* ytcpsocket.c in Sources */,
+				5F9B2F73841A9E2B5DFA6388FBA70A6A /* yudpsocket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		006E6B773679EF39CE9BF499F794EE3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 784EAC124F72BC31D1C4F3F0B05A5CD4 /* PBXContainerItemProxy */;
+		};
+		03260752ACCE531B1B7DBF4E64D60E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSocket;
+			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
+			targetProxy = E564CD39A8AB95FF76C588171A94C80E /* PBXContainerItemProxy */;
+		};
+		3382AF51BDB8410AD1F34F4E22A7CEC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 7F2E3B8DFF8C576093CED3A2B2C11631 /* PBXContainerItemProxy */;
+		};
+		381252F754C868E3CDD5284A91DEF1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-cs4981-photoapp";
+			target = 07F96471F3250B23824D958A284CD767 /* Pods-cs4981-photoapp */;
+			targetProxy = 1831304BB5D485DC6A137A7DF17E4B09 /* PBXContainerItemProxy */;
+		};
+		CC4D5AE4EF5753533E03DA9CBDE99309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSocket;
+			target = 2098E99F31975F5C89523CC6EB58B9CC /* SwiftSocket */;
+			targetProxy = E91428E2B974C50934C5BF434E105526 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		29CB042D0170B5234C5AED43A1E6951C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97F0FA6B0F409A39A8F286C9713CB87A /* Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CD4D341F94F2D9BB1466CF1AAEAA976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC97703E6567292C8B884DC68F2EB9E /* SwiftSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D3D8F152B66BF69CD6485884551E4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B77F259D97EB9CB1CBEE9B326EA7B7D /* Pods-cs4981-photoappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cs4981-photoappTests/Pods-cs4981-photoappTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cs4981-photoappTests/Pods-cs4981-photoappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88E73531C68FEC995B656F125B9BD903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2D914A27B1A116B8FBFBD22E116926B /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C68C840106C9F0164D352FADC6855AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F44DA2801272A3970B8A2C0CFBCAB776 /* Pods-cs4981-photoapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9DD09D0D00249C022E2A3426A4917732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F9ACB724D84DE82B4C54C821BCCE99 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CDDA0EDF68AABE1A16BA4BB0150F3688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CEEAA8F7698101FF3AE65B4B230AA29 /* Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEF4665684AB4DE37678C9CBDBE8D1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3D2CBA57370FDFA6E586116170E0CB /* Pods-cs4981-photoapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB30888D81609AECCB4246D32EF1CB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92EE1E558CE7AF5F652462D183937236 /* Pods-cs4981-photoappTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cs4981-photoappTests/Pods-cs4981-photoappTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cs4981-photoappTests/Pods-cs4981-photoappTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA466079979C10AA54B2ACC163333AD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28412B7D855806B6C289440C5F6D76B3 /* SwiftSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/SwiftSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSocket;
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3832354B0CEFAA4A2E3BDD4FEFF950D7 /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA466079979C10AA54B2ACC163333AD4 /* Debug */,
+				3CD4D341F94F2D9BB1466CF1AAEAA976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E696C537B5DCB98B6B01CDE5DE7FED3 /* Build configuration list for PBXNativeTarget "Pods-cs4981-photoappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB30888D81609AECCB4246D32EF1CB8B /* Debug */,
+				6D3D8F152B66BF69CD6485884551E4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7458B8FCE4575C63D7D0B35BCFE37AD3 /* Build configuration list for PBXNativeTarget "Pods-cs4981-photoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C68C840106C9F0164D352FADC6855AD /* Debug */,
+				CEF4665684AB4DE37678C9CBDBE8D1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC7241CEB1A0CC9EC84412CA9FD6006 /* Build configuration list for PBXNativeTarget "Pods-cs4981-photoapp-cs4981-photoappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDA0EDF68AABE1A16BA4BB0150F3688 /* Debug */,
+				29CB042D0170B5234C5AED43A1E6951C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E73531C68FEC995B656F125B9BD903 /* Debug */,
+				9DD09D0D00249C022E2A3426A4917732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

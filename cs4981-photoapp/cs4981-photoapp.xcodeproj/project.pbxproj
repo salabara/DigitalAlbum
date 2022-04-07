@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ACEF416FCA792E2FC7997AB /* Pods_cs4981_photoapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28743CBF2EC8E6745726C5A8 /* Pods_cs4981_photoapp.framework */; };
+		6A35DC102763127600A69809 /* RemoteControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35DC0F2763127600A69809 /* RemoteControlVC.swift */; };
+		6A35DC12276315EA00A69809 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A35DC11276315EA00A69809 /* Extensions.swift */; };
+		6ACC2C9A275FC22800EB7EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACC2C99275FC22800EB7EF6 /* Assets.xcassets */; };
+		6ACC2C9D275FC22800EB7EF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACC2C9C275FC22800EB7EF6 /* Preview Assets.xcassets */; };
+		6ACC2CA7275FC22800EB7EF6 /* cs4981_photoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC2CA6275FC22800EB7EF6 /* cs4981_photoappTests.swift */; };
+		6ACC2CB1275FC22800EB7EF6 /* cs4981_photoappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC2CB0275FC22800EB7EF6 /* cs4981_photoappUITests.swift */; };
+		6ACC2CB3275FC22800EB7EF6 /* cs4981_photoappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC2CB2275FC22800EB7EF6 /* cs4981_photoappUITestsLaunchTests.swift */; };
+		6ACC2CC4275FD95B00EB7EF6 /* OpenSSL in Frameworks */ = {isa = PBXBuildFile; productRef = 6ACC2CC3275FD95B00EB7EF6 /* OpenSSL */; };
+		6ACC2CC6275FD98900EB7EF6 /* ImagePreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC2CC5275FD98900EB7EF6 /* ImagePreviewVC.swift */; };
+		6ACC2CC8275FD99100EB7EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC2CC7275FD99100EB7EF6 /* AppDelegate.swift */; };
+		6ACC2CCA275FD99800EB7EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACC2CC9275FD99800EB7EF6 /* ViewController.swift */; };
+		6ACC2CCD275FDC8800EB7EF6 /* Shout in Frameworks */ = {isa = PBXBuildFile; productRef = 6ACC2CCC275FDC8800EB7EF6 /* Shout */; };
+		C11115CE5692952605DC4991 /* Pods_cs4981_photoappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5CD099A83A67C3398508D /* Pods_cs4981_photoappTests.framework */; };
+		C97DD83606F196F5C9E621A3 /* Pods_cs4981_photoapp_cs4981_photoappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62EA13198D395AB152484925 /* Pods_cs4981_photoapp_cs4981_photoappUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ACC2CA3275FC22800EB7EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ACC2C8A275FC22700EB7EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ACC2C91275FC22700EB7EF6;
+			remoteInfo = "cs4981-photoapp";
+		};
+		6ACC2CAD275FC22800EB7EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ACC2C8A275FC22700EB7EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ACC2C91275FC22700EB7EF6;
+			remoteInfo = "cs4981-photoapp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A71F0F6905C746C5B28E17B /* Pods-cs4981-photoapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cs4981-photoapp.debug.xcconfig"; path = "Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp.debug.xcconfig"; sourceTree = "<group>"; };
+		105A82E0AFE412DBE09E5E25 /* Pods-cs4981-photoapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cs4981-photoapp.release.xcconfig"; path = "Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp.release.xcconfig"; sourceTree = "<group>"; };
+		28743CBF2EC8E6745726C5A8 /* Pods_cs4981_photoapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cs4981_photoapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		529820BE695ADF2ED3937142 /* Pods-cs4981-photoappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cs4981-photoappTests.release.xcconfig"; path = "Target Support Files/Pods-cs4981-photoappTests/Pods-cs4981-photoappTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AFDAB4F04581B25044BF0BC /* Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig"; path = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62EA13198D395AB152484925 /* Pods_cs4981_photoapp_cs4981_photoappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cs4981_photoapp_cs4981_photoappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A35DC0F2763127600A69809 /* RemoteControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControlVC.swift; sourceTree = "<group>"; };
+		6A35DC11276315EA00A69809 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6ACC2C92275FC22700EB7EF6 /* cs4981-photoapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs4981-photoapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACC2C99275FC22800EB7EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ACC2C9C275FC22800EB7EF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6ACC2CA2275FC22800EB7EF6 /* cs4981-photoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs4981-photoappTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACC2CA6275FC22800EB7EF6 /* cs4981_photoappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs4981_photoappTests.swift; sourceTree = "<group>"; };
+		6ACC2CAC275FC22800EB7EF6 /* cs4981-photoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs4981-photoappUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACC2CB0275FC22800EB7EF6 /* cs4981_photoappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs4981_photoappUITests.swift; sourceTree = "<group>"; };
+		6ACC2CB2275FC22800EB7EF6 /* cs4981_photoappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs4981_photoappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6ACC2CC5275FD98900EB7EF6 /* ImagePreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePreviewVC.swift; sourceTree = "<group>"; };
+		6ACC2CC7275FD99100EB7EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ACC2CC9275FD99800EB7EF6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ACC2CCE275FE3D500EB7EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6FAC2C69C73C5B19F72F951B /* Pods-cs4981-photoappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cs4981-photoappTests.debug.xcconfig"; path = "Target Support Files/Pods-cs4981-photoappTests/Pods-cs4981-photoappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94D5CD099A83A67C3398508D /* Pods_cs4981_photoappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cs4981_photoappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90D6340BAC1F2E1D1F4F1EB /* Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig"; path = "Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACC2C8F275FC22700EB7EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACC2CCD275FDC8800EB7EF6 /* Shout in Frameworks */,
+				6ACC2CC4275FD95B00EB7EF6 /* OpenSSL in Frameworks */,
+				3ACEF416FCA792E2FC7997AB /* Pods_cs4981_photoapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC2C9F275FC22800EB7EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11115CE5692952605DC4991 /* Pods_cs4981_photoappTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC2CA9275FC22800EB7EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97DD83606F196F5C9E621A3 /* Pods_cs4981_photoapp_cs4981_photoappUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ACC2C89275FC22700EB7EF6 = {
+			isa = PBXGroup;
+			children = (
+				6ACC2C94275FC22700EB7EF6 /* cs4981-photoapp */,
+				6ACC2CA5275FC22800EB7EF6 /* cs4981-photoappTests */,
+				6ACC2CAF275FC22800EB7EF6 /* cs4981-photoappUITests */,
+				6ACC2C93275FC22700EB7EF6 /* Products */,
+				E716F7A6D151BAB155F4C9E2 /* Pods */,
+				E5950B1FADDC09228D7B104D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACC2C93275FC22700EB7EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACC2C92275FC22700EB7EF6 /* cs4981-photoapp.app */,
+				6ACC2CA2275FC22800EB7EF6 /* cs4981-photoappTests.xctest */,
+				6ACC2CAC275FC22800EB7EF6 /* cs4981-photoappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACC2C94275FC22700EB7EF6 /* cs4981-photoapp */ = {
+			isa = PBXGroup;
+			children = (
+				6ACC2CCE275FE3D500EB7EF6 /* Info.plist */,
+				6ACC2CC9275FD99800EB7EF6 /* ViewController.swift */,
+				6ACC2CC7275FD99100EB7EF6 /* AppDelegate.swift */,
+				6ACC2CC5275FD98900EB7EF6 /* ImagePreviewVC.swift */,
+				6A35DC0F2763127600A69809 /* RemoteControlVC.swift */,
+				6A35DC11276315EA00A69809 /* Extensions.swift */,
+				6ACC2C99275FC22800EB7EF6 /* Assets.xcassets */,
+				6ACC2C9B275FC22800EB7EF6 /* Preview Content */,
+			);
+			path = "cs4981-photoapp";
+			sourceTree = "<group>";
+		};
+		6ACC2C9B275FC22800EB7EF6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6ACC2C9C275FC22800EB7EF6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6ACC2CA5275FC22800EB7EF6 /* cs4981-photoappTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ACC2CA6275FC22800EB7EF6 /* cs4981_photoappTests.swift */,
+			);
+			path = "cs4981-photoappTests";
+			sourceTree = "<group>";
+		};
+		6ACC2CAF275FC22800EB7EF6 /* cs4981-photoappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ACC2CB0275FC22800EB7EF6 /* cs4981_photoappUITests.swift */,
+				6ACC2CB2275FC22800EB7EF6 /* cs4981_photoappUITestsLaunchTests.swift */,
+			);
+			path = "cs4981-photoappUITests";
+			sourceTree = "<group>";
+		};
+		E5950B1FADDC09228D7B104D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28743CBF2EC8E6745726C5A8 /* Pods_cs4981_photoapp.framework */,
+				62EA13198D395AB152484925 /* Pods_cs4981_photoapp_cs4981_photoappUITests.framework */,
+				94D5CD099A83A67C3398508D /* Pods_cs4981_photoappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E716F7A6D151BAB155F4C9E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A71F0F6905C746C5B28E17B /* Pods-cs4981-photoapp.debug.xcconfig */,
+				105A82E0AFE412DBE09E5E25 /* Pods-cs4981-photoapp.release.xcconfig */,
+				D90D6340BAC1F2E1D1F4F1EB /* Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig */,
+				5AFDAB4F04581B25044BF0BC /* Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig */,
+				6FAC2C69C73C5B19F72F951B /* Pods-cs4981-photoappTests.debug.xcconfig */,
+				529820BE695ADF2ED3937142 /* Pods-cs4981-photoappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ACC2C91275FC22700EB7EF6 /* cs4981-photoapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACC2CB6275FC22800EB7EF6 /* Build configuration list for PBXNativeTarget "cs4981-photoapp" */;
+			buildPhases = (
+				EC9D8D5F053EA3A574872F12 /* [CP] Check Pods Manifest.lock */,
+				6ACC2C8E275FC22700EB7EF6 /* Sources */,
+				6ACC2C8F275FC22700EB7EF6 /* Frameworks */,
+				6ACC2C90275FC22700EB7EF6 /* Resources */,
+				9858A354AEC0114353143360 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cs4981-photoapp";
+			packageProductDependencies = (
+				6ACC2CC3275FD95B00EB7EF6 /* OpenSSL */,
+				6ACC2CCC275FDC8800EB7EF6 /* Shout */,
+			);
+			productName = "cs4981-photoapp";
+			productReference = 6ACC2C92275FC22700EB7EF6 /* cs4981-photoapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ACC2CA1275FC22800EB7EF6 /* cs4981-photoappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACC2CB9275FC22800EB7EF6 /* Build configuration list for PBXNativeTarget "cs4981-photoappTests" */;
+			buildPhases = (
+				31CA03968DCDBE73A9FCEA6A /* [CP] Check Pods Manifest.lock */,
+				6ACC2C9E275FC22800EB7EF6 /* Sources */,
+				6ACC2C9F275FC22800EB7EF6 /* Frameworks */,
+				6ACC2CA0275FC22800EB7EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ACC2CA4275FC22800EB7EF6 /* PBXTargetDependency */,
+			);
+			name = "cs4981-photoappTests";
+			productName = "cs4981-photoappTests";
+			productReference = 6ACC2CA2275FC22800EB7EF6 /* cs4981-photoappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ACC2CAB275FC22800EB7EF6 /* cs4981-photoappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACC2CBC275FC22800EB7EF6 /* Build configuration list for PBXNativeTarget "cs4981-photoappUITests" */;
+			buildPhases = (
+				BE580214B41935A89DE371AF /* [CP] Check Pods Manifest.lock */,
+				6ACC2CA8275FC22800EB7EF6 /* Sources */,
+				6ACC2CA9275FC22800EB7EF6 /* Frameworks */,
+				6ACC2CAA275FC22800EB7EF6 /* Resources */,
+				EF040F83907AD4CE677E527B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ACC2CAE275FC22800EB7EF6 /* PBXTargetDependency */,
+			);
+			name = "cs4981-photoappUITests";
+			productName = "cs4981-photoappUITests";
+			productReference = 6ACC2CAC275FC22800EB7EF6 /* cs4981-photoappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ACC2C8A275FC22700EB7EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6ACC2C91275FC22700EB7EF6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6ACC2CA1275FC22800EB7EF6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6ACC2C91275FC22700EB7EF6;
+					};
+					6ACC2CAB275FC22800EB7EF6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 6ACC2C91275FC22700EB7EF6;
+					};
+				};
+			};
+			buildConfigurationList = 6ACC2C8D275FC22700EB7EF6 /* Build configuration list for PBXProject "cs4981-photoapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ACC2C89275FC22700EB7EF6;
+			packageReferences = (
+				6ACC2CC2275FD95B00EB7EF6 /* XCRemoteSwiftPackageReference "OpenSSL" */,
+				6ACC2CCB275FDC8800EB7EF6 /* XCRemoteSwiftPackageReference "Shout" */,
+			);
+			productRefGroup = 6ACC2C93275FC22700EB7EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACC2C91275FC22700EB7EF6 /* cs4981-photoapp */,
+				6ACC2CA1275FC22800EB7EF6 /* cs4981-photoappTests */,
+				6ACC2CAB275FC22800EB7EF6 /* cs4981-photoappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ACC2C90275FC22700EB7EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACC2C9D275FC22800EB7EF6 /* Preview Assets.xcassets in Resources */,
+				6ACC2C9A275FC22800EB7EF6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC2CA0275FC22800EB7EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC2CAA275FC22800EB7EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31CA03968DCDBE73A9FCEA6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cs4981-photoappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9858A354AEC0114353143360 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp/Pods-cs4981-photoapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE580214B41935A89DE371AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cs4981-photoapp-cs4981-photoappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9D8D5F053EA3A574872F12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cs4981-photoapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF040F83907AD4CE677E527B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACC2C8E275FC22700EB7EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACC2CCA275FD99800EB7EF6 /* ViewController.swift in Sources */,
+				6ACC2CC8275FD99100EB7EF6 /* AppDelegate.swift in Sources */,
+				6A35DC12276315EA00A69809 /* Extensions.swift in Sources */,
+				6A35DC102763127600A69809 /* RemoteControlVC.swift in Sources */,
+				6ACC2CC6275FD98900EB7EF6 /* ImagePreviewVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC2C9E275FC22800EB7EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACC2CA7275FC22800EB7EF6 /* cs4981_photoappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACC2CA8275FC22800EB7EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACC2CB1275FC22800EB7EF6 /* cs4981_photoappUITests.swift in Sources */,
+				6ACC2CB3275FC22800EB7EF6 /* cs4981_photoappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ACC2CA4275FC22800EB7EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ACC2C91275FC22700EB7EF6 /* cs4981-photoapp */;
+			targetProxy = 6ACC2CA3275FC22800EB7EF6 /* PBXContainerItemProxy */;
+		};
+		6ACC2CAE275FC22800EB7EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ACC2C91275FC22700EB7EF6 /* cs4981-photoapp */;
+			targetProxy = 6ACC2CAD275FC22800EB7EF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6ACC2CB4275FC22800EB7EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ACC2CB5275FC22800EB7EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ACC2CB7275FC22800EB7EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A71F0F6905C746C5B28E17B /* Pods-cs4981-photoapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cs4981-photoapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TV5DRUDY2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cs4981-photoapp/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Load photos and user could send it to album";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wsu-21-fall-gp3.cs4981-photoapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ACC2CB8275FC22800EB7EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105A82E0AFE412DBE09E5E25 /* Pods-cs4981-photoapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cs4981-photoapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TV5DRUDY2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cs4981-photoapp/Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Load photos and user could send it to album";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wsu-21-fall-gp3.cs4981-photoapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ACC2CBA275FC22800EB7EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FAC2C69C73C5B19F72F951B /* Pods-cs4981-photoappTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TV5DRUDY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wsu-21-fall-gp3.cs4981-photoappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs4981-photoapp.app/cs4981-photoapp";
+			};
+			name = Debug;
+		};
+		6ACC2CBB275FC22800EB7EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529820BE695ADF2ED3937142 /* Pods-cs4981-photoappTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TV5DRUDY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wsu-21-fall-gp3.cs4981-photoappTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs4981-photoapp.app/cs4981-photoapp";
+			};
+			name = Release;
+		};
+		6ACC2CBD275FC22800EB7EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90D6340BAC1F2E1D1F4F1EB /* Pods-cs4981-photoapp-cs4981-photoappUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TV5DRUDY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wsu-21-fall-gp3.cs4981-photoappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cs4981-photoapp";
+			};
+			name = Debug;
+		};
+		6ACC2CBE275FC22800EB7EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFDAB4F04581B25044BF0BC /* Pods-cs4981-photoapp-cs4981-photoappUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3TV5DRUDY2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "wsu-21-fall-gp3.cs4981-photoappUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cs4981-photoapp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ACC2C8D275FC22700EB7EF6 /* Build configuration list for PBXProject "cs4981-photoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACC2CB4275FC22800EB7EF6 /* Debug */,
+				6ACC2CB5275FC22800EB7EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACC2CB6275FC22800EB7EF6 /* Build configuration list for PBXNativeTarget "cs4981-photoapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACC2CB7275FC22800EB7EF6 /* Debug */,
+				6ACC2CB8275FC22800EB7EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACC2CB9275FC22800EB7EF6 /* Build configuration list for PBXNativeTarget "cs4981-photoappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACC2CBA275FC22800EB7EF6 /* Debug */,
+				6ACC2CBB275FC22800EB7EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACC2CBC275FC22800EB7EF6 /* Build configuration list for PBXNativeTarget "cs4981-photoappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACC2CBD275FC22800EB7EF6 /* Debug */,
+				6ACC2CBE275FC22800EB7EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6ACC2CC2275FD95B00EB7EF6 /* XCRemoteSwiftPackageReference "OpenSSL" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/OpenSSL";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6ACC2CCB275FDC8800EB7EF6 /* XCRemoteSwiftPackageReference "Shout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DimaRU/Shout";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6ACC2CC3275FD95B00EB7EF6 /* OpenSSL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ACC2CC2275FD95B00EB7EF6 /* XCRemoteSwiftPackageReference "OpenSSL" */;
+			productName = OpenSSL;
+		};
+		6ACC2CCC275FDC8800EB7EF6 /* Shout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6ACC2CCB275FDC8800EB7EF6 /* XCRemoteSwiftPackageReference "Shout" */;
+			productName = Shout;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6ACC2C8A275FC22700EB7EF6 /* Project object */;
+}

@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-cs4981-photoapp-cs4981-photoappUITests/Pods-cs4981-photoapp-cs4981-photoappUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework

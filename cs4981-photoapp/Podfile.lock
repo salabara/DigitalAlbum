@@ -1,0 +1,28 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - SwiftSocket (2.0.2)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - SwiftSocket (from `https://github.com/azubala/SwiftSocket`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+
+EXTERNAL SOURCES:
+  SwiftSocket:
+    :git: https://github.com/azubala/SwiftSocket
+
+CHECKOUT OPTIONS:
+  SwiftSocket:
+    :commit: 411cb480bdc1ebdf90f660f0e8f227b15af2ef54
+    :git: https://github.com/azubala/SwiftSocket
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  SwiftSocket: 0847ae35aeba4f64c1ba1fd2b113fdbc4e66de96
+
+PODFILE CHECKSUM: e0739b5fcedbebeda113f4b20d6b28844d098624
+
+COCOAPODS: 1.11.2
